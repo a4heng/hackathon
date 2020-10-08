@@ -1,0 +1,9 @@
+.box-container {
+  width: 750px;
+  height: 750px;
+  /* background: url("./bg-img.jpeg"); */
+}
+iframe {
+  width: 100%;
+  height: 100%;
+}
