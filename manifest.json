@@ -9,6 +9,9 @@
       "css": ["styles.css"]
     }
   ],
+  "background": {
+    "scripts": ["./frame_request.js"]
+  },
   "browser_action": {
     "default_popup": "popup.html",
     "default_icon": "ang.png"
