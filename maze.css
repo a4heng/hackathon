@@ -1,14 +1,72 @@
-.box-container {
-  width: 750px;
-  height: 750px;
-  /* background: url("./bg-img.jpeg"); */
+* {
+  margin: 0;
+  padding: 0;
 }
-#board {
-  width: 750px;
-  height: 750px;
-  /* background: url("./bg-img.jpeg"); */
+body {
+  background: url("./images/bg-img.jpg") no-repeat;
 }
+#box-container {
+  width: 750px;
+  height: 550px;
+}
+.feel h1 {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color: whitesmoke;
+  text-transform: uppercase;
+  font-size: 200;
+  margin-top: 4rem;
+  /* padding-top: 2rem; */
+}
+.buttons {
+  display: flex;
+  /* position: absolute; */
+  justify-content: space-evenly;
+  margin-top: 6rem;
+}
+.buttons div a {
+  border: 1px solid rgb(169, 113, 75);
+  border-radius: 0.25rem;
+  text-align: center;
+  padding: 0.25rem;
+  margin-right: 1rem;
+  font-size: 1rem;
+  transition: all 0.35s ease-in-out;
+  text-decoration: none;
+  color: whitesmoke;
+  font-family: "Poppins", sans-serif;
+}
+.buttons div :hover {
+  cursor: pointer;
+  background-color: whitesmoke;
+  font-size: 1.15rem;
+  color: black;
+}
+
 iframe {
-  width: 100%;
   height: 100%;
+  width: 100%;
+}
+.home {
+  display: flex;
+  width: 750px;
+  justify-content: center;
+}
+.img-cat {
+  height: 2rem;
+  width: auto;
+}
+
+.homepage {
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  text-decoration: none;
+}
+.extra h1 {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color: whitesmoke;
+  text-transform: uppercase;
+  font-size: 200;
+  margin-top: 4rem;
 }

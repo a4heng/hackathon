@@ -6,14 +6,14 @@
     {
       "matches": ["<all_urls>"],
       "js": ["jquery.min.js", "app.js"],
-      "css": ["styles.css"]
+      "css": ["style.css"]
     }
   ],
   "background": {
     "scripts": ["./frame_request.js"]
   },
   "browser_action": {
-    "default_popup": "popup.html",
-    "default_icon": "ang.png"
+    "default_popup": "login.html",
+    "default_icon": "./images/ang.png"
   }
 }
